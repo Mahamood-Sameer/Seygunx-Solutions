@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+body {
+  font-family: "Nunito", sans-serif !important;
+}
+.displaylogo{
+    display: none;
+}
+.toggle_btn{
+    display: none !important;
+}
+.navbar_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_links{
+    display: flex;
+    align-items: center;
+    flex: 0.4;
+    justify-content: space-between;
+}
+.navbar_parent_coustome {
+  background-color: white !important;
+}
+.navbar_coustom {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background-color: white !important;
+}
+.logo {
+  width: 30px;
+  object-fit: contain;
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar_links {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  text-decoration: none;
+  color: black;
+}
+.minimal_design_container {
+  background-color: black;
+  color: white;
+  height: 65vh;
+}
+.minimal_design_content {
+  width: 20%;
+  position: relative;
+  top: 25%;
+  bottom: 25%;
+  left: 15%;
+}
+.minimal_design_content h1 {
+  width: 70%;
+  font-size: 6vh;
+}
+.minimal_design_content h5 {
+  font-size: 2vh;
+  font-weight: 100;
+}
+.build_experience_content_bottom {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: 20% !important;
+  border: none !important;
+}
+.card > p {
+  margin-top: 20px;
+}
+.card > button {
+  border: none;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.build_experience_content {
+  margin-top: 5%;
+  width: 70vw;
+  position: relative;
+  left: 15%;
+}
+.design_brands {
+  background-color: black;
+  color: white;
+  margin-top: 5%;
+  height: 15vw;
+}
+.design_brands_content {
+  position: relative;
+  left: 15%;
+  top: 25%;
+  bottom: 25%;
+  width: 70vw;
+}
+.design_brands_content_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.design_brands_content_bottom p {
+  font-family: cursive;
+}
+.create_stories {
+  margin-top: 5%;
+}
+.create_stories_content {
+  width: 70vw;
+  position: relative;
+  top: 15%;
+  left: 15%;
+}
+.stories_images {
+  width: 350px !important;
+  object-fit: contain;
+}
+.card_boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.card_box_inside {
+  display: flex;
+  flex-direction: column;
+}
+.minimalist_look_container{
+    background-color: #008bfe;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+.minimalist_look_content > p{
+    margin: 0 !important;
+    margin-right: 20px !important;
+}
+.minimalist_look_content{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+.minimalist_look_content button{
+    border: none !important;
+    background-color: white !important;
+    color: black !important;
+    padding: 5px !important;
+    border-radius: 5px;
+}
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.footer_content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.footer_content > img{
+    border-radius: 50%;
+}
+.footer_content>p{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.socialmediapages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    width: 40%;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/* Media */
+
+@media (max-width:850px) {
+    .navbar_content{
+        display: none;
+    }
+    .displaylogo{
+        display: block;
+    }
+    .toggle_btn{
+        display: block !important;
+    }
+    .minimal_design_container{
+        height: 45vh !important;
+    }
+    .minimal_design_content,.build_experience_content,.create_stories_content{
+        top: 30%;
+        left: 7%;
+    }
+    .minimal_design_content h1 {
+        font-size:5vh ;
+        width: 30vh !important;
+    }
+    .minimal_design_content h5{
+        font-size: 1.3vh;
+        width: 20vh !important;
+    }
+    .build_experience_content h1{
+        font-size: 4.2vh;
+    }
+    .build_experience_content h5{
+        font-size: 2.5vh;
+    }
+    .build_experience_content_bottom{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 90% !important;
+        margin-bottom: 20px;
+    }
+    .card > button{
+        width: fit-content !important;
+        font-size: small;
+    }
+    .design_brands_content{
+        left: 7%;
+        top: 25%;
+    }
+    .design_brands{
+        height: 40vh;
+    }
+    .design_brands_content_top h1{
+        font-size: 4.2vh;
+    }
+    .design_brands_content_top h5,.create_stories_content_top h5{
+        font-size: 2vh;
+    }
+    .design_brands_content_bottom{
+        font-size: small;
+        flex-wrap: wrap;
+    }
+    .design_brands_content_bottom p{
+        margin-right: 5px;
+    }
+    .card_box_inside,.card_boxes{
+        flex-direction: column;
+    }
+    .stories_images{
+        width: 280px !important;
+    }
+    .minimalist_look_content{
+        font-size: 12px;
+    }
+    .footer_content{
+        font-size: 10px;
+        width: 100vw;
+    }
+}
